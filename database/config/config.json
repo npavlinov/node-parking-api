@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "parking-api",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 9998
+  }
+}

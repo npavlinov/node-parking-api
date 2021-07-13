@@ -1,0 +1,19 @@
+
+GET http://localhost:3000/parkings HTTP/1.1
+
+###
+
+GET http://localhost:3000/parkings/1 HTTP/1.1
+
+###
+
+POST http://localhost:3000/parkings  HTTP/1.1
+content-type: application/json
+
+{
+    "spaces": 200,
+    "dayTaxTimeStart": 28800,
+    "dayTaxTimeEnd": 64800,
+    "nightTaxTimeStart": 64800,
+    "nightTaxTimeEnd": 28800
+}
